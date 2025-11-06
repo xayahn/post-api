@@ -9,6 +9,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin(origins = "${ALLOWED_ORIGIN}")
 @RestController
 @RequestMapping("/api/posts")
 public class PostController {
